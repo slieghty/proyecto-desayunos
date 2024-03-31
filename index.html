@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOMBRE</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FF6BA1;
+            font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        }
+
+        .custom-navbar {
+            background-color: #fff !important;
+            font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+            font-weight: 300;
+            font-style: normal;
+            font-size: x-large;
+        }
+
+        .navbar-brand img {
+            width: 90px;
+            height: 90px;
+            margin-right: 10px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #FF6BA1 !important; /* Cambia el color del texto del navbar a #FF6BA1 */
+        }
+
+        .carousel-item img {
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        .accordion-item {
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .accordion-button {
+            background-color: #F9DAE0;
+            color: black;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .accordion-body {
+            border-top: 1px solid rgba(0, 0, 0, 0.125);
+            padding: 15px;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="proc.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Horizonte empresarial
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="seguridad.html">POLITICA DE SEGURIDAD</a></li>
+                            <li><a class="dropdown-item" href="contact.html">CONTACTENOS</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="somos.html">QUIENES SOMOS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slide1.jpeg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide3.jpeg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide2.jpeg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="card-group mt-5 ">
+        <div class="card mx-3 border">
+            <img src="img/masculino.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Masculinos</h5>
+                <p class="card-text">¡Descubre la emoción de un despertar especial! Nuestro desayuno sorpresa para hombres combina sabores audaces y una presentación única para iniciar el día con una sonrisa. Sorpréndelo con una experiencia matutina que despierte todos sus sentidos.</p>
+            </div>
+        </div>
+        <div class="card mx-3 border">
+            <img src="img/infantil.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Infantil</h5>
+                <p class="card-text">¡Sorpresa para los más pequeños! Nuestro desayuno sorpresa infantil está lleno de colores, diversión y delicias. Con una selección de alimentos saludables y tentadoras golosinas, este desayuno hará que cada mañana sea una aventura emocionante para los niños.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-group mt-3  mb-5">
+        <div class="card mx-3 border">
+            <img src="img/cumpleanos.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cumpleaños</h5>
+                <p class="card-text">Deléitate con nuestro desayuno sorpresa para cumpleaños, una explosión de sabores y emociones en cada bocado. Sorprende a tus seres queridos con una selección cuidadosamente preparada de delicias dulces y saladas, todo presentado de manera encantadora y festiva. Celebra tu día especial con un desayuno único que dejará recuerdos duraderos y sonrisas inolvidables.</p>
+            </div>
+        </div>
+        <div class="card mx-3 border">
+            <img src="img/fecha.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Fechas especiales</h5>
+                <p class="card-text">Despierta con una sorpresa especial: nuestro desayuno sorpresa. Preparado con amor y cuidado, este delicioso festín matutino es la manera perfecta de celebrar fechas especiales y hacer que cada momento sea memorable.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Desayuno Sorpresa Personalizado
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Celebra tus momentos especiales con nuestro desayuno sorpresa personalizado. Cada detalle está pensado para crear una experiencia única y memorable, desde la selección de ingredientes frescos hasta la presentación elegante y el toque especial que lo distingue.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Variedad de Opciones
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Descubre nuestra amplia variedad de opciones para tu desayuno sorpresa. Desde exquisitos platos principales hasta deliciosos acompañamientos y postres, tenemos todo lo que necesitas para hacer de tu celebración un momento inolvidable.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Servicio Personalizado
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        En Desayunos Sorpresa, nos enorgullecemos de ofrecerte un servicio personalizado que se adapta a tus gustos y necesidades. Desde la elección de los alimentos hasta la entrega puntual, estamos aquí para hacer realidad tus sueños culinarios.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">© 2024 Laura Isabella Muñoz Montilla</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
